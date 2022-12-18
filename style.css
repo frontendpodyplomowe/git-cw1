@@ -13,3 +13,21 @@ input[type="text"]{
     background-color: yellow;
     border-radius: 3px;
 }
+
+.container{
+    background-image: url('assets/img_1.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.3;
+    height: 100vh;
+    z-index: -1;
+}
+
+.footer{
+    color: black;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
