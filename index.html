@@ -7,6 +7,9 @@
     <title>git cwiczenie z formularzem</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      </style>
   </head>
   <body>
     <div class="header1">
@@ -44,7 +47,13 @@
                   Ile masz lat doświadczenia?
               </label>
               <input type="number" id="field4" name="field4" value="2" min="1" max="5">
-
+              <br>
+              <input type="checkbox" id="field5" name="field5" checked/>
+              <label class="description" id="title5" for="field5" title="Czy zapisać do newslettera?">Czy zapisać do newslettera?</label>
+              <br>
+              <input type="checkbox" id="field6" name="field6" checked/>
+              <label class="description" id="title6" for="field6" title="Czy cię nie wylogowywać?">Czy cię nie wylogowywać?</label>
+              <br>
               <input type="submit" id="sendForm" name="sendForm" value="Prześlij">
             </div>
         </form>
