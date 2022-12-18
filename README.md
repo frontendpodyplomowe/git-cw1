@@ -1,42 +1,80 @@
-# New form to our app!
-	Working on new custom form!
 
+#  New form to our app!
 
+Working on new custom form!
 
-# ## Structure
+  
+  
+  
+
+#  ## Structure
+
+  
 
 - index.html
+
 - script.js
+
 - style.css
 
+  
+  
 
-## Goals
+##  Goals
 
-- Wojtek: dodanie dwóch nowych pól do formularza = checkboxy wraz z formatowaniem
-- Krzysiek: README.md
-- Agnieszka Kozłowska: dodanie do formularza daty urodzenia
-- Agnieszka RS: dodanie nowych fontów do projektu oraz zmiana font-family elementów formularza i headera formularza; *dodanie animacji spadających płatków śniegu
-- Wanda: pole tekstowe (textarea) do wpisania komentarza
-- Kamil: Dodanie regulaminu strony/button do regulaminu/ regulamin pokazuje się w okienku popup
-- Agnieszka Sz: dodanie do formularza wieku
-- Tomek: Kalendarz - data wpisu formularza
-- Krzysiek F: hover/animacja na butonie wyslij
-- Munkhjargal: wybiera krajow
-- Mariam: dodanie ikon w polach tekstowych formularzy
-- Patrycja : dodawanie nowych zainteresowań
-- Lukasz C - dodanie pola dropdown dla wielkości miejsca zamieszkania c
-- Jędrzej S - ostylowanie i dodanie darkmode
-- Sebastian: dodanie obrazka w backgroundzie i footera
-- Paulina - dodanie pola (upload pliku)
-- Piotr: dodanie dropdown Kraj do formularza - nowe pole
+  
 
+-  [x] dodanie dwóch nowych pól do formularza = checkboxy wraz z formatowaniem
 
-## Setup
+-  [x] README.md
+
+-  [x] dodanie do formularza daty urodzenia
+
+-  [x] dodanie nowych fontów do projektu oraz zmiana font-family elementów formularza i headera formularza; *dodanie animacji spadających płatków śniegu
+
+-  [x]  pole tekstowe (textarea) do wpisania komentarza
+
+-  [x]  Dodanie regulaminu strony/button do regulaminu/ regulamin pokazuje się w okienku popup
+
+-  [x]  dodanie do formularza wieku
+
+-  [ ] Kalendarz - data wpisu formularza
+
+-  [ ] hover/animacja na butonie wyslij
+
+-  [ ] wybiera krajow
+
+-  [ ] dodanie ikon w polach tekstowych formularzy
+
+-  [ ] dodawanie nowych zainteresowań
+
+-  [ ] dodanie pola dropdown dla wielkości miejsca zamieszkania c
+
+-  [ ] ostylowanie i dodanie darkmode
+
+-  [ ] dodanie obrazka w backgroundzie i footera
+
+-  [ ] dodanie pola (upload pliku)
+
+-  [ ] dodanie dropdown Kraj do formularza - nowe pole
+
+  
+  
+
+##  Setup
+
 To run this project, install it locally:
+
 ```
+
 $ git clone <FORK_URL>
+
 $ git branch
+
 $ git checkout -b YOUR_NEW_BRANCH_NAME
+
 $ git branch -v
+
+  
 
 ```
