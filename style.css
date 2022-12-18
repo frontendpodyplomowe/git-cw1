@@ -1,15 +1,75 @@
-p{
-    color: green;
-    border: 1px solid blue;
-    text-align: center;
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label[value="light"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+  }
+
+  body{
+    background-color: aliceblue; 
 }
 
-#title1{
-    font-size: 20px;
-    font-weight: bold;
+button[value="light"]{
+    background-color:#354761;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
 }
-
-input[type="text"]{
-    background-color: yellow;
-    border-radius: 3px;
-}
+  /* Dark mode styles */
+   
+    
+    button[value="dark"]{
+        background-color:#BFCEE1;
+        width: 50px;
+        height: 50px;
+        padding: 0px;
+    }
+    
+    p{
+        color: antiquewhite;
+    }
+    
+    #img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    label[value="dark"]{
+        color: darkseagreen;
+    }
