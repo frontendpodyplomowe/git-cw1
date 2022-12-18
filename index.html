@@ -13,40 +13,60 @@
       <p>Formularz git - cw1</p>
     </div>
     <div class="form1">
-        <form>
-            <label class="description" id="title1" for="field1">
-                Podaj swoje imię:</label
-              >
-              <input
-                type="text"
-                id="field1"
-                name="field1"
-                placeholder="Wpisz imię"
-                required
-              />
-              <br />
-              <label class="description" id="title2" for="field2"
-                >Podaj swoje hasło:</label
-              >
-              <input
-                type="password"
-                id="field2"
-                name="field2"
-                placeholder="Wpisz hasło"
-              />
-              <br />
-              <label class="description" id="title3" for="field3"
-                >Podaj swój email:</label
-              >
-              <input type="email" id="field3" name="field3" size="40" required />
-              <br>
-              <label class="description" id="title4" for="field4">
-                  Ile masz lat doświadczenia?
-              </label>
-              <input type="number" id="field4" name="field4" value="2" min="1" max="5">
+      <form>
+        <label class="description" id="title1" for="field1">
+          Podaj swoje imię:</label
+        >
+        <input
+          type="text"
+          id="field1"
+          name="field1"
+          placeholder="Wpisz imię"
+          required
+        />
+        <br />
+        <label class="description" id="title2" for="field2"
+          >Podaj swoje hasło:</label
+        >
+        <input
+          type="password"
+          id="field2"
+          name="field2"
+          placeholder="Wpisz hasło"
+        />
+        <br />
+        <label class="description" id="title3" for="field3"
+          >Podaj swój email:</label
+        >
+        <input type="email" id="field3" name="field3" size="40" required />
+        <br />
+        <label class="description" id="title4" for="field4">
+          Ile masz lat doświadczenia?
+        </label>
+        <input
+          type="number"
+          id="field4"
+          name="field4"
+          value="2"
+          min="1"
+          max="5"
+        />
+        <br />
+        <label for="country-select">Podaj kraj zamieszkania:</label>
+        <select name="country" id="country-select" required>
+          <option value="">--Wybierz kraj--</option>
+          <option value="pl">Polska</option>
+          <option value="de">Niemcy</option>
+          <option value="cz">Czechy</option>
+          <option value="ee">Estonia</option>
+          <option value="lt">Litwa</option>
+          <option value="lv">Łotwa</option>
+          <option value="sk">Słowacja</option>
+          <option value="at">Austria</option>
+        </select>
 
-              <input type="submit" id="sendForm" name="sendForm" value="Prześlij">
-            </div>
-        </form>
+        <input type="submit" id="sendForm" name="sendForm" value="Prześlij" />
+      </form>
+    </div>
   </body>
 </html>
