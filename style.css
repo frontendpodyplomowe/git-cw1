@@ -13,3 +13,22 @@ input[type="text"]{
     background-color: yellow;
     border-radius: 3px;
 }
+
+
+
+@keyframes example {
+    from {background-color: yellow;}
+    to {background-color: white;}
+}
+    
+#title5, #title6 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    line-height: 200%;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    padding: 3px;
+    text-shadow: 1px 1px 2px gray;   
+}
