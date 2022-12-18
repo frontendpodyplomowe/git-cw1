@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6, p, input, label, textarea {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
 p{
     color: green;
     border: 1px solid blue;
@@ -9,12 +14,12 @@ p{
     font-weight: bold;
 }
 
+
 input[type="text"]{
     background-color: yellow;
     border-radius: 3px;
 }
 
-/*Wanda*/
 #textarea {
     margin-top: 1em;
     width: 25em;
@@ -48,4 +53,12 @@ input[type="text"]{
     border: none;
     background-color: #f5f5f5;
 }
-/*Wanda_end*/
+
+
+input[type="file"] {
+    margin: 10px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}

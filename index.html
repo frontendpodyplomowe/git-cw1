@@ -40,18 +40,47 @@
               >
               <input type="email" id="field3" name="field3" size="40" required />
               <br>
+              <br>
+              <label class="description" id="country" for="'country">Kraj</label>
+              <select id="country" name="country">
+                <option value ="poland">Poland</option>
+                <option value ="usa">USA</option>
+                <option value ="francja">Francja</option>
+                <option value ="argentyna">Argentyna</option>
+                <option value ="katar">Katar</option>
+                <option value ="mongolia">Mongolia</option>
+                <option value ="inny">inny</option>
+              </select>
+              <br>
               <label class="description" id="title4" for="field4">
                   Ile masz lat doświadczenia?
               </label>
               <input type="number" id="field4" name="field4" value="2" min="1" max="5">
+              <br>
+              <label class = 'description ' id = "title5 " for="field5">Podaj swój numer telefonu</label>
+              <input type="tel" id ="field5" name ="field5" placeholder = " xxx-xxx-xxx" >
+              <label class="description" id="titleLC" for="fieldLC">
+                Jaka jest wielkość zaludnienia miejsca zamieszkania
+              </label>
+              <select id="fieldLC" name="fieldLC">
+                <option value="0">0 - 5 tyś</option>
+                <option value="1">5 tyś - 20 tyś</option>
+                <option value="2">20 tyś - 100 tyś</option>
+                <option value="3">100 tyś - 500 tyś</option>
+                <option value="4"> > 500 tyś </option>
+              </select>
 
+              <br>
+              <label for="field5">Dodaj plik</label>
+              <input type="file" id="field5" name="field5" >
+              <br>
+
+              <label id="title6" for="field6">Data rejestracji</label>
+              <input type="date" id="field6" value="2022-12-18"/>
               <input type="submit" id="sendForm" name="sendForm" value="Prześlij">
-
-              <!--Wanda-->
               <br>
               <textarea id="textarea" role="textarea" placeholder="Wpisz komentarz..." autofocus></textarea>
               </textarea>
-              <!--Wanda_end-->
   
         </form>
     </div>
