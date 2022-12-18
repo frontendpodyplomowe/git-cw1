@@ -29,3 +29,14 @@
 - Sebastian: dodanie obrazka w backgroundzie i footera
 - Paulina - dodanie pola (upload pliku)
 - Piotr: dodanie dropdown Kraj do formularza - nowe pole
+
+
+## Setup
+To run this project, install it locally:
+```
+$ git clone <FORK_URL>
+$ git branch
+$ git checkout -b YOUR_NEW_BRANCH_NAME
+$ git branch -v
+
+```
