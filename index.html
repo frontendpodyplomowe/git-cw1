@@ -13,40 +13,69 @@
       <p>Formularz git - cw1</p>
     </div>
     <div class="form1">
-        <form>
-            <label class="description" id="title1" for="field1">
-                Podaj swoje imię:</label
-              >
-              <input
-                type="text"
-                id="field1"
-                name="field1"
-                placeholder="Wpisz imię"
-                required
-              />
-              <br />
-              <label class="description" id="title2" for="field2"
-                >Podaj swoje hasło:</label
-              >
-              <input
-                type="password"
-                id="field2"
-                name="field2"
-                placeholder="Wpisz hasło"
-              />
-              <br />
-              <label class="description" id="title3" for="field3"
-                >Podaj swój email:</label
-              >
-              <input type="email" id="field3" name="field3" size="40" required />
-              <br>
-              <label class="description" id="title4" for="field4">
-                  Ile masz lat doświadczenia?
-              </label>
-              <input type="number" id="field4" name="field4" value="2" min="1" max="5">
+      <form>
+        <label class="description" id="title1" for="field1">
+          Podaj swoje imię:</label
+        >
+        <input
+          type="text"
+          id="field1"
+          name="field1"
+          placeholder="Wpisz imię"
+          required
+        />
+        <br />
+        <label class="description" id="title2" for="field2"
+          >Podaj swoje hasło:</label
+        >
+        <input
+          type="password"
+          id="field2"
+          name="field2"
+          placeholder="Wpisz hasło"
+        />
+        <br />
+        <label class="description" id="title3" for="field3"
+          >Podaj swój email:</label
+        >
+        <input type="email" id="field3" name="field3" size="40" required />
+        <br />
+        <label class="description" id="title4" for="field4">
+          Ile masz lat doświadczenia?
+        </label>
+        <input
+          type="number"
+          id="field4"
+          name="field4"
+          value="2"
+          min="1"
+          max="5"
+        />
 
-              <input type="submit" id="sendForm" name="sendForm" value="Prześlij">
-            </div>
+        <input type="submit" id="sendForm" name="sendForm" value="Prześlij" />
+      </form>
+    </div>
+    <div class="regBox">
+      <dialog id="favDialog">
+        <form method="dialog">
+          <article>
+            1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis animi reiciendis! Vero, necessitatibus asperiores! Quas repellat necessitatibus facilis vitae numquam eius. Nemo, nisi repudiandae provident ea asperiores officiis! Est!
+
+            2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sapiente facilis provident esse rem harum eligendi, possimus, obcaecati amet, repellat quae accusamus iusto vitae. Incidunt sed fugiat voluptatem quae eaque.
+
+            3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolores commodi harum quisquam ratione dolorem modi recusandae quam expedita, ea accusamus veniam quasi quo eaque magnam officiis suscipit ab fugit.
+
+          </article>
+          <div>
+            <button value="cancel">Nie akceptuje</button>
+            <button id="confirmBtn" value="default">Akceptuje</button>
+          </div>
         </form>
+      </dialog>
+      <p>
+        <button id="showDialog">Regulamin</button>
+      </p>
+      <output id="output"></output>
+    </div>
   </body>
 </html>
