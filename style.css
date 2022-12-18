@@ -13,3 +13,39 @@ input[type="text"]{
     background-color: yellow;
     border-radius: 3px;
 }
+
+/*Wanda*/
+#textarea {
+    margin-top: 1em;
+    width: 25em;
+    height: 5em;
+    overflow: auto;
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding:10px;
+    box-shadow: 8px 8px 24px -14px black;
+}
+
+::placeholder {
+    color: #5f5f5f;
+}
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5f5f5f;
+}
+
+#textarea:focus {
+    border: none;
+    background-color: #f5f5f5;
+}
+/*Wanda_end*/
