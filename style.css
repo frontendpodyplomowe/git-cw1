@@ -1,23 +1,88 @@
-
-p{
-    color: green;
-    border: 1px solid blue;
-    text-align: center;
+p {
+  color: green;
+  border: 1px solid blue;
+  text-align: center;
 }
 
-#title1{
-    font-size: 20px;
-    font-weight: bold;
+#title1 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-input[type="text"]{
-    background-color: yellow;
-    border-radius: 3px;
+input[type="text"] {
+  background-color: yellow;
+  border-radius: 3px;
 }
-#regulationButton{
-    background-color: orange;
-    color: black;
-    font-size: 20 px;
-    border-radius: 5 px;
+#regBorder {
+  border: 0.5px solid rgb(97, 202, 244);
+}
+#regBox {
+  position: inherit;
+  border: 10px solid transparent;
+  padding: 15px;
+  max-width: 200px;
+}
+#favDialog {
+  max-width: 600px;
+  background-image: url(./assets/christmas_background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin-top: 5%;
+}
+#regText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  font-size: 16px;
+}
+#regHeader {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: 35%;
+}
+.regParagraph {
+  border: none;
+  color: white;
+  margin-bottom: 5%;
+  text-align: left;
 }
 
+#showDialogBtn,
+#cancelBtn,
+#confirmBtn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #05485e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  align-items: center;
+}
+#confirmBtn:disabled {
+  background-color: rgba(5, 72, 94, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+}
+#exitBtn {
+  position: absolute;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #05485ea0;
+
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  width: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  top: 2%;
+  right: 2%;
+}
